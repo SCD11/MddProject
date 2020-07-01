@@ -1,0 +1,14 @@
+Intro:
+We are doing simulation for ambulances and since it's a simlulation due to which we are limiting thigs like
+> We are providing god mode view of all that is happening, 3 in 1
+> Not simulating the traffic because we couldn't use Google maps api or any of
+the tools we mentioned in project becaues of this whole covid scenario
+> But this simluation will give a pretty good idea of how things are 
+working
+
+we are going to do the following thing:
+1> Already presence of the markers depicting the emergency vehicles
+2> Simulate the creations of SOS from the user and selection of a vehicle to green
+3> Total number of active vehicles and passive vehicles
+4> Another SOS and another sos...and in case of overwhelming odds, nothing
+5> Clearing of the case, removal of the marker and go of emergency vehicles

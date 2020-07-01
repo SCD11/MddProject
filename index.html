@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOT Enabled Emergency Vehicle Monitoring System</title>    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class = "outer_container">
+        <div class="top_header">
+            <img src="./logo_1.png" height=50px width=80px>
+            <h1 class = "heading">Simulation of IOT Based Emergency Vehicle Collision Avoidence System</h1>
+        </div>
+        <div id="map"></div>
+        <div class="inner_container">
+            <div class = "user">
+                <label name="SOS">User : </label>
+                <input class="sos" type="button" name="SOS" value="SOS">
+            </div>
+            <div class = "ambulance">
+                <label name="response">Ambulance : </label>
+                <input class="response" type="button" name="response" value="Response">
+            </div>
+            <div class = "display">
+                <p> Total Available Emergency Vehicles in the Area : </p>
+                <p id = "vehicleNums">3</p>
+            </div>
+        </div>
+        <footer>
+            <p> Work Done By &copy; : Aditya Pandey, Akash Yadav & Mahesh Adhikari </p>
+        </footer>
+    
+    </div>
+    <script src = "./script.js"></script>
+</body>
+</html>
